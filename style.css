@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    
+}
+body{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 0;
+ width: 100%;
+ height: 100vh;
+ font-family: "Exo", sans-serif;
+ color: #fff;
+ background: linear-gradient(-45deg, #ff0000, #e73c7e, #23a6d5, #23d5ab, #f0f0f0);
+ background-size: 400% 400%;
+ -webkit-animation: gradientBG 10s ease infinite;
+         animation: gradientBG 10s ease infinite;
+}
+.container {
+ position: absolute;
+ top: 35%;
+ text-align: center;
+}
+@-webkit-keyframes gradientBG {
+ 0% {
+ background-position: 0% 50%;
+ }
+ 50% {
+ background-position: 100% 50%;
+ }
+ 100% {
+ background-position: 0% 50%;
+ }
+}
+@keyframes gradientBG {
+ 0% {
+ background-position: 0% 50%;
+ }
+ 50% {
+ background-position: 100% 50%;
+ }
+ 100% {
+ background-position: 0% 50%;
+ }
+    
+}
+input[type=button]{
+    width: 100px;
+    height: 40px;
+    margin: 2px;
+   border-radius: 10px;
+    background:#dadce0;
+    color: rgb(0, 0, 0);
+    border: none;
+    text-shadow: rgba(70, 5, 5, 0.781) ;
+}
+input[type=button]:hover{
+    cursor: pointer;
+    box-shadow:1px 5px 3px rgba(70, 5, 5, 0.781);
+    opacity: 100%;
+    background: white;
+}
+input[type=text]{
+    width: 426px;
+    height: 50px;
+    margin: 2px;
+}
+
